@@ -8,8 +8,7 @@ echo "-----> Install ffmpegthumbnailer"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
 # DOWNLOAD_URL="http://www.aksiom.net/stuff/ffmpegthumbnailer_2.0.8-2.bin.tar.gz"
-DOWNLOAD_URL="http://10ben.io/vendor/vendor-ffmpegthumbnailer.tbz2.tgz"
-
+DOWNLOAD_URL="https://github.com/dressanomalie/heroku-ffmpegthumbnailer/blob/master/vendor-ffmpegthumbnailer.tbz2.tgz?raw=true"
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
 cd $BUILD_DIR
